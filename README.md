@@ -111,7 +111,7 @@ Data on access to sanitation in India is made available on the India Water Porta
 ##Water Cycle
 
 #####Basin Boundaries 
-Basin boundaries for the largest watersheds originating in the Hindu Kush-Himalaya (HKH) region. 
+Digital polygon data of Major River Basins of Hindu Kush Himalayan, HKH Region. This dataset is acquired from 90 meter spatial resolution SRTM DEM. The dataset contains Ten Major River Basins of the Hindu Kush - Himalayan (HKH) Region. All data is sourced from MENRIS-ICIMOD.
 
 ####Aquaduct Basin Index
 This dataset shows countries and river basins' average exposure to five of Aqueduct's water risk indicators: baseline water stress, interannual variability, seasonal variability, flood occurrence, and drought severity. Risk exposure scores are available for every country (except Greenland and Antarctica), the 100 most populous river basins, and the 100 largest river basins by area.
