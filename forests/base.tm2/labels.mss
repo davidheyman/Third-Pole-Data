@@ -12,19 +12,20 @@
   text-halo-fill: @country_halo;
   text-halo-radius: 2;
   text-halo-rasterizer: fast;
-  text-size: 12;
+  text-transform: uppercase;
+  text-size: 18;
   [zoom>=3][scalerank=1],
   [zoom>=4][scalerank=2],
   [zoom>=5][scalerank=3],
   [zoom>=6][scalerank>3] {
-    text-size: 14;
+    text-size: 22;
     text-wrap-width: 160;
   }
   [zoom>=4][scalerank=1],
   [zoom>=5][scalerank=2],
   [zoom>=6][scalerank=3],
   [zoom>=7][scalerank>3] {
-    text-size: 16;
+    text-size: 28;
     text-wrap-width: 185;
   }
   [zoom>=8] { text-fill: @country_text_high; }  
@@ -32,7 +33,7 @@
 
 #country_label_line {
   line-color: #324;
-  line-opacity: 0.05;
+  line-opacity: 0;
 }
 
 // States //
@@ -125,7 +126,7 @@
       text-align: right;
       }
     text-name: @name;
-    text-size: 16;
+    text-size: 14;
     text-face-name: @reg;
     text-placement: point;
     text-fill: @city_text;
@@ -143,24 +144,24 @@
     text-halo-fill: @city_halo;
     text-halo-radius: 2;
     text-halo-rasterizer: fast;
-    text-size: 16;
+    text-size: 14;
     text-line-spacing: -8;
     text-wrap-width: 160;
     text-wrap-before: true;
     [zoom>=9] { 
-      text-size: 17; 
+      text-size: 15; 
       text-wrap-width: 170; }
     [zoom>=10] { 
-      text-size: 18; 
+      text-size: 16; 
       text-wrap-width: 180; }
     [zoom>=12] { 
-      text-size: 24;
+      text-size: 20;
       text-character-spacing: 0;
       text-wrap-width: 220; 
       }
     [zoom>=14] { 
         text-fill: @city_text_high; 
-        text-size: 28;
+        text-size: 22;
         text-wrap-width: 250;
       } 
     }
